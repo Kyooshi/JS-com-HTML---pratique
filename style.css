@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 50%;
+    margin: 0 auto 0 auto;
+}
+
+h1, h2{
+    text-align: center;
+    padding: 10px;
+    background-color:cornflowerblue;
+    font-size: 30px;;
+}
+
+form{
+    text-align: center;
+    font-weight: bold;
+}
+
+form p, form input{
+    padding: 5px;
+}
+
+#btn_submit{
+    margin-top: 15px;
+    padding: 10px;
+    background-color: aqua;
+    border-color: aquamarine;
+    font-weight: bold;
+}
+
+#btn_submit:hover{
+    padding: 11px;
+    background-color: blue;
+    border-color: rgba(0, 0, 255, 0.247);
+    font-weight: bolder;
+    color: white;
+}
+
+.error{
+    background-color: red;
+    margin: 10px;
+    display: none;
+}
